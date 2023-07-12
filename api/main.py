@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+
+# loading dotenv
+load_dotenv()
+
 from fastapi import FastAPI
 import uvicorn
 from core.routes import router
