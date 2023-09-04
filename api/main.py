@@ -5,9 +5,9 @@ load_dotenv()
 
 from fastapi import FastAPI
 import uvicorn
-from core.routes import router
+from src.routes import router
 
-from core.db.database import Base, engine
+from src.db.database import Base, engine
 
 Base.metadata.create_all(bind=engine)
 
