@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import timezones from '../timezone.json';
 
 	let time = '';
